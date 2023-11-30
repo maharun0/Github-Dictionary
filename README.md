@@ -36,3 +36,18 @@ That's it! You're now ready to make pull requests on GitHub and contribute to op
 
 This merged version combines the content from all the boxes into a single Markdown code block.
 
+# 🐼 Integrate changes from remote 'main' to your local branch (even if your local branch is behind main)
+
+If your intention is to integrate changes from the remote 'main' branch into your local 'zerodha-with-html-and-css' branch and your local branch is behind the remote, you should first checkout your local branch and then merge the remote main branch into it. Here are the steps:
+
+1. Switch to Your Local Branch:
+
+  `git checkout zerodha-with-html-and-css`
+
+2. Merge Changes from Remote main Branch:
+   `git merge origin/main`
+
+This will merge changes from the main branch of the remote repository (referred to as origin) into your local branch. If there are no conflicts, the merge should proceed smoothly. If there are conflicts, Git will notify you, and you'll need to manually resolve them.
+
+
+
