@@ -52,5 +52,9 @@ git merge origin/main
 
 This will merge changes from the main branch of the remote repository (referred to as origin) into your local branch. If there are no conflicts, the merge should proceed smoothly. If there are conflicts, Git will notify you, and you'll need to manually resolve them.
 
+## Git Rebase
+
+### ([Git Rebase video](https://www.youtube.com/watch?v=k74B8sc3pRo))
+
 
 
