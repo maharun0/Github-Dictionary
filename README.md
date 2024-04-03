@@ -56,5 +56,25 @@ This will merge changes from the main branch of the remote repository (referred 
 
 ### ([Git Rebase video](https://www.youtube.com/watch?v=k74B8sc3pRo))
 
+Example(from the video)
 
+- rebasing "develop" branch onto "master"
+
+which repo am i rebasing? </br>
+&emsp; develop </br>
+&emsp; (mane develop repo er history change hobe)
+
+according to which branch? </br>
+&emsp; master </br>
+&emsp; (master er shob commit er por develop er exclusive new commit gula add hobe)
+
+Before: </br>
+&emsp; master &nbsp; = `a, b, c, d, e` </br>
+&emsp; develop = `a, b, c, f, g`
+
+After: </br>
+&emsp; master &nbsp; = `a, b, c, d, e` </br>
+&emsp; develop = `a, b, c, d, e, f, g`
+
+(just watch the video for clear understanding)
 
